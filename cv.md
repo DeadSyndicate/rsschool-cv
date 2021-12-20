@@ -1,8 +1,6 @@
 1. Pavel Akimov
 2. Contacts:
->Telegram: @DeadSyndicate
-
->Discord: @Deadsyndicate#5786
+>Telegram: @DeadSyndicate, Discord: @Deadsyndicate#5786
 3. Skills:
 >HTML & CSS, Sass, Git, Photoshop, Illustrator, InDesign
 4. Code:
