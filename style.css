@@ -33,8 +33,6 @@ h2 {
 header {
     background-color: antiquewhite;
 }
-.nav {
-}
 .nav_list {
     display: flex;
     justify-content: flex-end;
@@ -85,22 +83,6 @@ header {
 }
 .content_text {
     text-align: center;
-}
-.container_item {
-}
-.section_contacts {
-}
-.container_item_textarea {
-}
-.section_skills {
-}
-.section_code {
-}
-.section_courses {
-}
-.section_education {
-}
-.section_english {
 }
 footer {
     background-color: antiquewhite;
