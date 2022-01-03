@@ -4,9 +4,101 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+    <title>CV</title>
 </head>
 <body>
-    
+        <header>
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav_list">
+                        <li class="nav_item"><a href="#contacts" class="nav_link">Contacts</a></li>
+                        <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                        <li class="nav_item"><a href="#code" class="nav_link">Code</a></li>
+                        <li class="nav_item"><a href="#courses" class="nav_link">Courses</a></li>
+                        <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                        <li class="nav_item"><a href="#english" class="nav_link">English</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="container main-container">
+                <section class="section_introducing">
+                    <div class="section_introducing_content">
+                        <div class="content_img">
+                            <img src="/assets/img/my_photo.jpg" alt="Pavel Akimov photo" width="100">
+                        </div>
+                        <div class="content_text">
+                            <h1>Pavel Akimov</h1>
+                            <h2>Junior Front-end developer</h2>
+                        </div>
+                    </div>
+                </section>
+                <section class="section container_item section_contacts" id="contacts">
+                    <div class="container_item_textarea">
+                        <h2>Contacts</h2>
+                        <ul>
+                            <li>Belarus, Minsk</li>
+                            <li><a href="https://t.me/Deadsyndicate" target="blank" class="link">Telegram</a></li>
+                            <li>Discord: Deadsyndicate</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section container_item section_skills" id="skills">
+                    <div class="container_item_textarea">
+                        <h2>Skills</h2>
+                        <ul>
+                            <li>Html, CSS, SASS, GIT</li>
+                            <li>Photoshop, Illustrator, InDesign</li>
+                            <li>3Dmax</li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section container_item section_code" id="code">
+                    <div class="container_item_textarea">
+                        <h2>Code</h2>
+                        <p> function multiply(a, b){<br>
+                            return a * b<br>
+                            }
+                        </p>
+                    </div>
+                </section>
+                <section class="section container_item section_courses" id="courses">
+                    <div class="container_item_textarea">
+                        <h2>Courses</h2>
+                        <ul>
+                            <li> <a href="https://wayup.in" target="_blank" class="link">WayUP</a></li>
+                            <li> <a href="https://senlainc.com/" target="_blank" class="link">Senla</a></li>
+                            <li> <a href="https://www.sololearn.com/home" target="_blank" class="link">Sololearn</a></li>
+                        </ul>
+                    </div>
+                </section>
+                <section class="section container_item section_education" id="education">
+                    <div class="container_item_textarea">
+                        <h2>Education</h2>
+                        <p>BSU Web-designer</p>
+                    </div>
+                </section>
+                <section class="section container_item section_english" id="english">
+                    <div class="container_item_textarea">
+                        <h2>English</h2>
+                        <p>B1 (Intermediate)</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer>
+            <div class="footer_container container">
+                <p>© 2022</p>
+                <a href="https://github.com/DeadSyndicate" target="_blank" class="link">deadsyndicate</a>
+                <a href="https://rs.school/js/" target="blank">
+                    <img src="/assets/svg/rs_school_js.svg" alt="rs_school" width="100">
+                </a>
+            </div>
+        </footer>
 </body>
 </html>
